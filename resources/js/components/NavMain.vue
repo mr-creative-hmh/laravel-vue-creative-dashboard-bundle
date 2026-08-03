@@ -29,10 +29,15 @@ const { t } = useTrans();
                     :is-active="isCurrentUrl(item.href)"
                     :tooltip="t(item.title, item.title)"
                 >
-                    <Link :href="item.href" class="flex items-center gap-2 text-start">
+                    <component
+                        :is="item.target === '_blank' ? 'a' : Link"
+                        :href="item.href"
+                        :target="item.target"
+                        class="flex items-center gap-2 text-start"
+                    >
                         <component :is="item.icon" class="size-4 shrink-0" />
                         <span>{{ t(item.title, item.title) }}</span>
-                    </Link>
+                    </component>
                 </SidebarMenuButton>
             </SidebarMenuItem>
         </SidebarMenu>

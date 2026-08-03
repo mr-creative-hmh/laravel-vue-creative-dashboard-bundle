@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
-import { Activity, Bell, LayoutGrid, ShieldCheck, Users } from '@lucide/vue';
+import { Activity, Bell, LayoutGrid, ShieldCheck, Users , Sparkles } from '@lucide/vue';
 import { computed } from 'vue';
 import AppLogo from '@/components/AppLogo.vue';
 import NavFooter from '@/components/NavFooter.vue';
@@ -55,6 +55,12 @@ const allNavItems: CustomNavItem[] = [
         title: 'Notifications',
         href: '/notifications',
         icon: Bell,
+    },
+    {
+        title: 'CRUD Studio',
+        href: '/crud-studio',
+        icon: Sparkles,
+        target: '_blank',
     },
 ];
 
