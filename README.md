@@ -29,6 +29,18 @@ Engineered for rapid development, it delivers a bi-directional (**English & Arab
 
 ---
 
+## 🔗 Creative SaaS Ecosystem Repositories
+
+This **PRO Bundle** brings together two core projects into a single turnkey repository:
+
+| Repository | Description | Link |
+| :--- | :--- | :--- |
+| **🚀 Creative Starter Dashboard Kit** | Open-source enterprise Laravel 13 + Vue 3 + Inertia v3 SaaS starter kit. | [GitHub Repository](https://github.com/mr-creative-hmh/laravel-vue-creative-starter-dashboard-kit) |
+| **⚡ Creative Vue CRUD Studio** | Interactive CLI & 4-Tab Web UI Visual CRUD Studio generator package (v5.0 PRO). | [Packagist Package](https://packagist.org/packages/mr-creative-hmh/creative-vue-crud-studio) • [GitHub](https://github.com/mr-creative-hmh/creative-vue-crud-studio) |
+| **👑 Laravel Vue Creative Dashboard Bundle** | Turn-key PRO Bundle with Starter Kit + CRUD Studio PRO pre-installed. | [GitHub Repository](https://github.com/mr-creative-hmh/laravel-vue-creative-dashboard-bundle) |
+
+---
+
 ## 🖼️ Visual Showcase & Comprehensive Screenshots
 
 ### 💻 Enterprise LTR Dashboard Overview
